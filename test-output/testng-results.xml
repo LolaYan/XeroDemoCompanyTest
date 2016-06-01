@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12796" started-at="2016-06-01T03:51:23Z" finished-at="2016-06-01T03:51:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12796" started-at="2016-06-01T03:51:23Z" finished-at="2016-06-01T03:51:35Z">
+      <class name="LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2016-06-01T15:51:23Z" finished-at="2016-06-01T15:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-06-01T15:51:23Z" finished-at="2016-06-01T15:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-06-01T15:51:23Z" finished-at="2016-06-01T15:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="setUp" is-config="true" duration-ms="4037" started-at="2016-06-01T15:51:23Z" finished-at="2016-06-01T15:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidDashboardDemoCompany()[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="ValidDashboardDemoCompany" duration-ms="7598" started-at="2016-06-01T15:51:27Z" description="To test Valid Dashboard Demo Company" finished-at="2016-06-01T15:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidDashboardDemoCompany -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="tearDown" is-config="true" duration-ms="1150" started-at="2016-06-01T15:51:34Z" finished-at="2016-06-01T15:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-06-01T15:51:35Z" finished-at="2016-06-01T15:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-06-01T15:51:35Z" finished-at="2016-06-01T15:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest@704a52ec]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-06-01T15:51:35Z" finished-at="2016-06-01T15:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@33bc72d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- LolaAutomation.XeroDemoCompanyTest.Tests.DashboardPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

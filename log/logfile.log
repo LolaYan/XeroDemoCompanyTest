@@ -1,0 +1,253 @@
+2016-06-01 15:32:07,795 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:32:07,797 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:32:07,800 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:32:07,802 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:32:07,803 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:32:07,803 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:32:07,803 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:32:11,911 INFO  [LogHelper]  Navigating to URL: https://login.xero.com 
+2016-06-01 15:32:12,337 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:32:14,467 INFO  [LogHelper]  Input string: yhx7886708 into element:By.id: password 
+2016-06-01 15:32:14,549 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:32:14,609 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:32:15,772 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:32:15,775 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:32:15,776 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:32:15,776 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:32:15,777 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:32:15,777 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:32:19,082 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:32:19,645 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:32:59,714 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir12144_25946}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b2c1b2cc16cd6709c678505519d5d92e
+*** Element info: {Using=xpath, value=//a[.=' Try the Demo Company (NZ) ']} !  
+2016-06-01 15:32:59,716 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:33:00,880 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:33:00,880 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:33:00,916 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:33:49,128 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:33:49,130 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:33:49,133 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:33:49,135 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:33:49,136 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:33:49,137 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:33:49,137 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:33:52,963 INFO  [LogHelper]  Navigating to URL: https://login.xero.com 
+2016-06-01 15:33:53,053 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:33:53,174 INFO  [LogHelper]  Input string: yhx7886708 into element:By.id: password 
+2016-06-01 15:33:53,238 ERROR [LogHelper]  * Fail to input string: yhx7886708 into element:By.id: password ! 
+ Error Msg:stale element reference: element is not attached to the page document
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir11484_872}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fe5d30e9f116baa54df60f7b06f67991 !  
+2016-06-01 15:33:53,238 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:33:53,875 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:33:55,032 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:33:55,035 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:33:55,036 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:33:55,036 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:33:55,037 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:33:55,037 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:34:00,442 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:34:01,091 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:34:41,168 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir12828_30872}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 13296deab39f997f889818c7258eb7a9
+*** Element info: {Using=xpath, value=//a[.=' Try the Demo Company (NZ) ']} !  
+2016-06-01 15:34:41,170 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:34:42,336 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:34:42,336 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:34:42,368 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:36:58,626 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:36:58,628 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:36:58,631 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:36:58,633 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:36:58,634 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:36:58,634 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:36:58,634 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:37:02,314 INFO  [LogHelper]  Navigating to URL: https://login.xero.com 
+2016-06-01 15:37:02,362 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:37:02,455 INFO  [LogHelper]  Input string: yhx7886708 into element:By.id: password 
+2016-06-01 15:37:02,527 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:37:02,565 ERROR [LogHelper]  * Fail to click on element: By.id: submitButton ! 
+ Error Msg:stale element reference: element is not attached to the page document
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir12600_18678}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 728350904579125d57679e6fbd4a4f84 !  
+2016-06-01 15:37:02,566 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:37:03,732 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:37:03,735 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:37:03,736 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:37:03,736 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:37:03,737 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:37:03,737 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:37:06,988 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:37:07,167 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:37:47,194 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir13080_13929}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33c50e73ee7a773e0957b0bdd125f3ea
+*** Element info: {Using=xpath, value=//a[.=' Try the Demo Company (NZ) ']} !  
+2016-06-01 15:37:47,195 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:37:48,345 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:37:48,346 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:37:48,380 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:39:34,206 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:39:34,208 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:39:34,211 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:39:34,213 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:39:34,214 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:39:34,214 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:39:34,214 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:39:39,936 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:39:40,608 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:39:42,646 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:null !  
+2016-06-01 15:39:42,647 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:39:43,779 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:39:43,782 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:39:43,818 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:41:20,726 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:41:20,728 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:41:20,731 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:41:20,733 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:41:20,734 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:41:20,734 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:41:20,734 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:41:24,380 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:41:24,562 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:41:24,656 INFO  [LogHelper]  Input string: yhx7886708 into element:By.id: password 
+2016-06-01 15:41:24,733 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:41:24,784 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:41:52,003 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:null !  
+2016-06-01 15:41:52,004 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:41:53,124 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:41:53,127 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:41:53,159 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:50:11,647 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:50:11,648 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:50:11,652 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:50:11,653 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:50:11,657 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:50:11,657 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:50:11,657 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:50:15,425 INFO  [LogHelper]  Navigating to URL: https://login.xero.com 
+2016-06-01 15:50:15,607 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:50:15,697 ERROR [LogHelper]  * Fail to input string: lolayan@outlook.com into element:By.id: email ! 
+ Error Msg:stale element reference: element is not attached to the page document
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir7796_21208}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cd99e2bdcfa70f586d8d626964964cf3 !  
+2016-06-01 15:50:15,697 INFO  [LogHelper]  Input string: password123 into element:By.id: password 
+2016-06-01 15:50:17,830 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:50:17,910 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:50:18,715 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:50:21,616 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:null !  
+2016-06-01 15:50:21,618 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:50:22,751 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:50:22,753 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:50:22,783 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:51:02,620 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:51:02,621 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:51:02,625 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:51:02,626 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:51:02,627 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:51:02,628 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:51:02,628 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:51:06,304 INFO  [LogHelper]  Navigating to URL: https://login.xero.com 
+2016-06-01 15:51:06,364 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:51:06,456 INFO  [LogHelper]  Input string: password123 into element:By.id: password 
+2016-06-01 15:51:06,526 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:51:06,570 ERROR [LogHelper]  * Fail to click on element: By.id: submitButton ! 
+ Error Msg:stale element reference: element is not attached to the page document
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir3252_28199}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2b8643904798bc4f000e3a910364d511 !  
+2016-06-01 15:51:06,573 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:51:07,216 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:51:18,383 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:null !  
+2016-06-01 15:51:18,384 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:51:19,500 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:51:19,502 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:51:19,536 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-01 15:51:23,132 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-01 15:51:23,134 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-01 15:51:23,138 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-01 15:51:23,139 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-01 15:51:23,140 INFO  [LogHelper]  Get browser type from application.properties file  
+2016-06-01 15:51:23,141 INFO  [LogHelper]  Get browser type:CHROME 
+2016-06-01 15:51:23,141 INFO  [LogHelper]  > Opening Browser:CHROME 
+2016-06-01 15:51:26,899 INFO  [LogHelper]  Navigating to URL: https://login.xero.com 
+2016-06-01 15:51:26,952 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.id: email 
+2016-06-01 15:51:27,028 INFO  [LogHelper]  Input string: password123 into element:By.id: password 
+2016-06-01 15:51:27,118 INFO  [LogHelper]  Click element: By.id: submitButton 
+2016-06-01 15:51:27,179 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-01 15:51:33,932 INFO  [LogHelper]  Click element: By.xpath: //a[.=' Try the Demo Company (NZ) '] 
+2016-06-01 15:51:34,774 ERROR [LogHelper]  * Fail to click on element: By.xpath: //a[.=' Try the Demo Company (NZ) '] ! 
+ Error Msg:invalid selector: Unable to locate an element with the xpath expression //a[.=' Try the Demo Company (NZ) '] because of the following error:
+TypeError: Failed to execute 'createNSResolver' on 'Document': parameter 1 is not of type 'Node'.
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 836 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir10296_3399}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 146e7c9c0d24dc93d8fa3697ae05b4fa
+*** Element info: {Using=xpath, value=//a[.=' Try the Demo Company (NZ) ']} !  
+2016-06-01 15:51:34,775 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-01 15:51:35,926 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-01 15:51:35,929 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-01 15:51:35,961 INFO  [LogHelper]  * END Test Suite:Default suite *  
