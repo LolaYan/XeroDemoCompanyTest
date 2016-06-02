@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.testng.annotations.Test;
 
 import LolaAutomation.XeroDemoCompanyTest.Pages.DashboardPage;
-import LolaAutomation.XeroDemoCompanyTest.Pages.LoginPage;
 
 
 public class DashboardPageTest extends BaseTest{

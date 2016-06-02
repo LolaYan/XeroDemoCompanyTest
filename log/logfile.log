@@ -251,3 +251,262 @@ Session ID: 146e7c9c0d24dc93d8fa3697ae05b4fa
 2016-06-01 15:51:35,926 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
 2016-06-01 15:51:35,929 INFO  [LogHelper]  - END Test Case: Default test -  
 2016-06-01 15:51:35,961 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 11:10:49,108 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 11:10:49,110 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 11:10:49,114 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 11:10:49,116 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 11:10:49,120 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 11:11:11,805 INFO  [LogHelper]  Navigating to URL: https://my.xero.com/Dashboard 
+2016-06-02 11:11:11,821 ERROR [LogHelper]  * Fail to Navigating to URL: https://my.xero.com/Dashboard ! 
+ Error Msg:Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 9a5429f1-4fd3-443e-ba1c-ec2181e92a73 
+2016-06-02 11:11:11,824 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 11:11:12,166 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 11:11:12,166 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 11:11:13,041 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 11:11:13,042 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 11:11:13,058 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 11:19:52,962 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 11:19:52,963 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 11:19:52,967 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 11:19:52,969 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 11:19:52,970 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 11:20:14,059 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 11:20:15,437 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address. Double tap to edit. 
+2016-06-02 11:20:43,292 ERROR [LogHelper]  * Fail to input string: lolayan@outlook.com into element:By.name: Email address. Double tap to edit. ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26.64 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: fe087fa1-fefa-4440-baa8-14c7a53613c5 !  
+2016-06-02 11:20:43,293 INFO  [LogHelper]  Input string: password123 into element:By.name: Enter password.. Double tap to edit. 
+2016-06-02 11:21:09,716 ERROR [LogHelper]  * Fail to input string: password123 into element:By.name: Enter password.. Double tap to edit. ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: fe087fa1-fefa-4440-baa8-14c7a53613c5 !  
+2016-06-02 11:21:09,716 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 11:21:13,248 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 11:21:13,248 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 11:21:14,179 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 11:21:14,180 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 11:21:14,191 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 11:44:51,753 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 11:44:51,756 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 11:44:51,760 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 11:44:51,762 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 11:44:51,763 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 11:45:12,924 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 11:45:13,378 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address. Double tap to edit. 
+2016-06-02 11:45:39,949 ERROR [LogHelper]  * Fail to input string: lolayan@outlook.com into element:By.name: Email address. Double tap to edit. ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.37 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 88118496-fe43-47c3-bebd-02db9abfffd5 !  
+2016-06-02 11:45:39,949 INFO  [LogHelper]  Input string: password123 into element:By.name: Enter password.. Double tap to edit. 
+2016-06-02 11:46:04,995 ERROR [LogHelper]  * Fail to input string: password123 into element:By.name: Enter password.. Double tap to edit. ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24.96 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 88118496-fe43-47c3-bebd-02db9abfffd5 !  
+2016-06-02 11:46:04,995 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 11:46:08,375 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 11:46:08,375 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 11:46:09,406 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 11:46:09,407 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 11:46:09,422 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:28:34,095 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:28:34,097 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:28:34,101 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:28:34,102 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:28:34,106 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:28:56,611 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:29:24,917 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:29:24,917 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:29:25,914 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:29:25,915 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:29:25,933 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:30:10,289 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:30:10,291 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:30:10,295 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:30:10,296 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:30:10,297 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:30:31,491 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:30:38,191 INFO  [LogHelper]  Click element: By.name: Email address 
+2016-06-02 12:30:41,435 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:30:48,556 INFO  [LogHelper]  Input string: password123 into element:By.name: Enter password.. Double tap to edit. 
+2016-06-02 12:31:14,729 ERROR [LogHelper]  * Fail to input string: password123 into element:By.name: Enter password.. Double tap to edit. ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.61 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 8026128c-f4e1-49a2-bf37-5b989797a244 !  
+2016-06-02 12:31:14,730 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 12:31:18,040 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:31:18,040 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:31:19,017 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:31:19,018 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:31:19,033 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:33:32,000 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:33:32,002 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:33:32,006 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:33:32,007 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:33:32,008 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:33:53,995 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:34:01,073 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:34:35,693 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:34:35,693 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:34:36,798 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:34:36,799 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:34:36,817 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:35:22,363 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:35:22,365 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:35:22,369 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:35:22,370 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:35:22,371 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:35:43,897 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:35:51,333 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:36:03,549 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 12:36:09,689 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 12:36:10,648 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:36:10,648 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:36:11,592 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:36:11,593 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:36:11,609 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:37:03,018 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:37:03,020 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:37:03,023 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:37:03,025 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:37:03,026 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:37:23,118 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:37:30,020 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:37:42,321 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 12:38:14,430 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:38:14,430 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:38:15,202 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:38:15,203 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:38:15,222 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:47:30,234 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:47:30,236 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:47:30,240 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:47:30,242 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:47:30,242 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:47:50,374 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:47:57,094 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:48:10,328 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 12:48:43,082 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:48:43,083 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:48:43,860 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:48:43,861 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:48:43,889 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:49:43,076 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:49:43,078 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:49:43,082 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:49:43,083 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:49:43,084 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:50:03,177 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:50:10,809 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:50:23,894 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 12:50:56,790 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:50:56,790 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:50:57,559 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:50:57,560 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:50:57,590 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:53:08,159 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:53:08,161 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:53:08,165 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:53:08,166 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:53:08,167 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:53:28,790 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:53:36,518 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:53:49,477 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 12:53:55,912 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 12:54:24,613 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:54:24,614 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:54:25,430 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:54:25,432 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:54:25,460 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 12:56:08,888 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 12:56:08,890 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 12:56:08,894 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 12:56:08,896 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 12:56:08,897 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 12:56:29,177 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 12:56:37,088 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 12:56:49,414 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 12:56:56,022 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 12:56:56,956 INFO  [LogHelper]  Click element: By.id: com.xero.touch:id/button_forgot 
+2016-06-02 12:57:36,990 ERROR [LogHelper]  * Fail to click on element: By.id: com.xero.touch:id/button_forgot ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 986738df-3001-4b9e-8023-69e19e36bd90
+*** Element info: {Using=id, value=com.xero.touch:id/button_forgot} !  
+2016-06-02 12:57:36,991 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 12:57:36,991 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 12:57:37,809 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 12:57:37,810 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 12:57:37,825 INFO  [LogHelper]  * END Test Suite:Default suite *  
+2016-06-02 14:04:50,028 INFO  [LogHelper]  * START Test Suite:Default suite *  
+2016-06-02 14:04:50,030 INFO  [LogHelper]  - START Test Case: Default test -  
+2016-06-02 14:04:50,034 INFO  [LogHelper]  - START Test Class: org.testng.TestRunner -  
+2016-06-02 14:04:50,035 INFO  [LogHelper]  - START Test Method:  -  
+2016-06-02 14:04:50,036 INFO  [LogHelper]  > Building appium session. 
+2016-06-02 14:05:11,001 INFO  [LogHelper]  Click element: By.name: LOG IN WITH YOUR XERO ACCOUNT 
+2016-06-02 14:05:18,274 INFO  [LogHelper]  Input string: lolayan@outlook.com into element:By.name: Email address 
+2016-06-02 14:05:31,853 INFO  [LogHelper]  Input string: password123 into element:By.name: Password 
+2016-06-02 14:05:37,307 INFO  [LogHelper]  Click element: By.name: CONTINUE 
+2016-06-02 14:05:38,358 INFO  [LogHelper]  Click element: By.id: com.xero.touch:id/button_forgot 
+2016-06-02 14:06:19,032 ERROR [LogHelper]  * Fail to click on element: By.id: com.xero.touch:id/button_forgot ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: ecdd372c-4c85-4c5e-adfc-70f911a5fc0b
+*** Element info: {Using=id, value=com.xero.touch:id/button_forgot} !  
+2016-06-02 14:06:19,038 INFO  [LogHelper]  Click element: By.xpath: //*[@id='com.xero.touch:id/psts_tab_title'][@name='INVOICES'] 
+2016-06-02 14:06:59,553 ERROR [LogHelper]  * Fail to click on element: By.xpath: //*[@id='com.xero.touch:id/psts_tab_title'][@name='INVOICES'] ! 
+ Error Msg:An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40.51 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LCAKINTW0714', ip: '169.254.71.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=d5b296cd, platform=LINUX, appActivity=com.xero.touch.myxero.MyXeroActivity, desired={app=C:\Users\User\workspace\XeroDemoCompanyTest\apps\XeroAccountingSoftware.apk, appPackage=com.xero.touch, appActivity=com.xero.touch.myxero.MyXeroActivity, platformVersion=23, browserName=null, platformName=Android, deviceName=d5b296cd}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=null, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: ecdd372c-4c85-4c5e-adfc-70f911a5fc0b
+*** Element info: {Using=xpath, value=//*[@id='com.xero.touch:id/psts_tab_title'][@name='INVOICES']} !  
+2016-06-02 14:06:59,554 INFO  [LogHelper]  - END Test Method:  -  
+2016-06-02 14:06:59,555 INFO  [LogHelper]  Close appium android driver. 
+2016-06-02 14:07:00,527 INFO  [LogHelper]  - END Test Class: org.testng.TestRunner -  
+2016-06-02 14:07:00,528 INFO  [LogHelper]  - END Test Case: Default test -  
+2016-06-02 14:07:00,538 INFO  [LogHelper]  * END Test Suite:Default suite *  
